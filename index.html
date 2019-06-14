@@ -14,7 +14,7 @@
 <body>
 
 	<!-- container principale -->
-	<div class="container">
+	<div class="container-fluid">
 
 		<header>
 			<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -39,29 +39,23 @@
 		<main>
 			<!-- jumbotron -->
 			<section>
-				<div class="jumbotron green-bg">
-
-					<div class="row">
-
-						<div class="col-xs-12">
-							<img id="jumbotron__image" src="Resources/images/main-logo.svg" alt="Start-bootstrap-logo">
-							<h1>start bootstrap</h1>
-							<div class="star-divisor">
-								<div class="star-divisor__line star-divisor__line--white"></div>
-								<img class="star-divisor__star" src="Resources/icons/star-white.png">
-								<div class="star-divisor__line star-divisor__line--white"></div>
-							</div>
-							<p>graphic artist - web designer - illustrator</p>
+				<div class="jumbotron jumbotron-fluid green-bg">
+					<div class="container">
+						<img id="jumbotron__image" src="Resources/images/main-logo.svg" alt="Start-bootstrap-logo">
+						<h1>start bootstrap</h1>
+						<div class="star-divisor">
+							<div class="star-divisor__line star-divisor__line--white"></div>
+							<img class="star-divisor__star" src="Resources/icons/star-white.png">
+							<div class="star-divisor__line star-divisor__line--white"></div>
 						</div>
-
+						<p>graphic artist - web designer - illustrator</p>
 					</div>
-
 				</div>
 			</section>
 
 			<!-- portfolio -->
 			<section>
-				<div class="portfolio">
+				<div class="portfolio container">
 						
 					<!-- titolo sezione -->
 					<div class="row">
@@ -134,7 +128,7 @@
 					<!-- download button -->
 					<div class="row">
 						<div class="col-xs-12">
-							<button class="btn btn-success btn-lg">free download!</button>
+							<button class="about__download-button btn btn-default btn-lg"><img class="about__download-icon" src="Resources/icons/download.png"> free download!</button>
 						</div>
 					</div>
 
@@ -143,7 +137,7 @@
 
 			<!-- contatti -->
 			<section>
-				<div class="contatti">
+				<div class="contatti container">
 
 					<div class="row">
 

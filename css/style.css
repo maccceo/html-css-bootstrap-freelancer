@@ -8,20 +8,13 @@ body {
 	font-family: Montserrat, Arial;
 	padding-top: 50px;
 	color: #2F4051;
+	text-align: center;
 }
 
 h1, h2 {
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: 700;
-}
-
-.jumbotron,
-.portfolio,
-.about,
-.contatti,
-footer {
-	text-align: center;
 }
 
 .green-bg {
@@ -50,15 +43,20 @@ footer {
 	height: 3.8rem;
 }
 
-
-
-
 /*
 # # TABELLA COLORI # #
 blu: 				#2F4051
 verde acqua: 		#00BB9B
 blu scuro footer: 	#1F2932
 */
+
+
+
+
+
+/*--------------------
+         NAVBAR
+*/--------------------
 
 .navbar-brand h1 {
 	margin: 0;
@@ -71,14 +69,67 @@ blu scuro footer: 	#1F2932
 }
 
 
+
+
+
+/*--------------------
+       JUMBOTRON
+*/--------------------
+
+.jumbotron-fluid {
+	border-radius: 0;
+}
+
 #jumbotron__image {
 	width: 15rem;
 	text-align: center;
 }
 
+
+
+
+
+/*--------------------
+      PORTFOLIO
+*/--------------------
+
 .portfolio__image {
 	margin-bottom: 30px;
 }
+
+
+
+
+
+/*--------------------
+         ABOUT
+*/--------------------
+
+.about__download-button {
+	color: #FFF;
+	border: 2px solid #FFF;
+	background-color: #00BB9B;
+}
+
+.about__download-button:hover {
+	color: #000;
+	border: 2px solid #FFF;
+	background-color: #FFF;
+}
+
+/*colora di nero l'icona dei download quando selezioni o passi sopra il bottone*/
+.about__download-button:hover .about__download-icon,
+.about__download-button:focus .about__download-icon {
+	filter: brightness(0%);
+}
+
+
+
+
+
+/*--------------------
+        FOOTER
+*/--------------------
 
 footer {
 	background-color: #1F2932;
