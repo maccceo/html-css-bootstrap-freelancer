@@ -6,30 +6,81 @@
 
 body {
 	font-family: Montserrat, Arial;
-	padding-top: 70px;
+	padding-top: 50px;
+	color: #2F4051;
 }
 
 h1, h2 {
 	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
 }
 
-.navbar-brand h1 {
+.jumbotron,
+.portfolio,
+.about,
+.contatti,
+footer {
+	text-align: center;
+}
+
+.green-bg {
+	background-color: #00BB9B;
+	color: white;
+}
+
+/*divisore con la stella e le linee prima e dopo*/
+.star-divisor {
+	margin: 1.5rem 0;
+}
+
+.star-divisor__line {
+	margin: 0 0.9rem;
 	display: inline-block;
+	height: 0.33rem;
+	width: 11rem;
+	background-color: #2F4051;
+}
+
+.star-divisor__line--white {
+	background-color: #FFF;
+}
+
+.star-divisor__star {
+	height: 3.8rem;
+}
+
+
+
+
+/*
+# # TABELLA COLORI # #
+blu: 				#2F4051
+verde acqua: 		#00BB9B
+blu scuro footer: 	#1F2932
+*/
+
+.navbar-brand h1 {
 	margin: 0;
-	font-weight: 700;
 	font-size: 2rem;
 	padding: 15px;
-    height: 100%;
 }
 
 .navbar-brand {
     padding: 0;
 }
 
+
 #jumbotron__image {
 	width: 15rem;
+	text-align: center;
 }
 
 .portfolio__image {
 	margin-bottom: 30px;
+}
+
+footer {
+	background-color: #1F2932;
+	color: #FFF;
 }
