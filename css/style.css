@@ -25,3 +25,11 @@ h1, h2 {
 .navbar-brand {
     padding: 0;
 }
+
+#jumbotron__image {
+	width: 15rem;
+}
+
+.portfolio__image {
+	margin-bottom: 30px;
+}
