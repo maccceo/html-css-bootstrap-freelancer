@@ -54,10 +54,9 @@ blu scuro footer: 	#1F2932
 
 
 
-/*--------------------
-         NAVBAR
-*/--------------------
-
+/*----------------*/
+/* # # NAVBAR # # */
+/*----------------*/
 .navbar-brand h1 {
 	margin: 0;
 	font-size: 2rem;
@@ -72,10 +71,9 @@ blu scuro footer: 	#1F2932
 
 
 
-/*--------------------
-       JUMBOTRON
-*/--------------------
-
+/*-------------------*/
+/* # # JUMBOTRON # # */
+/*-------------------*/
 .jumbotron-fluid {
 	border-radius: 0;
 }
@@ -89,10 +87,9 @@ blu scuro footer: 	#1F2932
 
 
 
-/*--------------------
-      PORTFOLIO
-*/--------------------
-
+/*-------------------*/
+/* # # PORTFOLIO # # */
+/*-------------------*/
 .portfolio__image {
 	margin-bottom: 30px;
 }
@@ -101,10 +98,9 @@ blu scuro footer: 	#1F2932
 
 
 
-/*--------------------
-         ABOUT
-*/--------------------
-
+/*---------------*/
+/* # # ABOUT # # */
+/*---------------*/
 .about__download-button {
 	color: #FFF;
 	border: 2px solid #FFF;
@@ -127,10 +123,28 @@ blu scuro footer: 	#1F2932
 
 
 
-/*--------------------
-        FOOTER
-*/--------------------
+/*------------------*/
+/* # # CONTATTI # # */
+/*------------------*/
+.contatti__send-button {
+	color: #FFF;
+	border: 2px solid #FFF;
+	border-radius: 5px;
+	background-color: #00BB9B;
+	padding: 1rem 1.75rem;
+	float: left;
+}
 
+.form-control {
+	border: 0;
+    box-shadow: none;
+}
+
+
+
+/*----------------*/
+/* # # FOOTER # # */
+/*----------------*/
 footer {
 	background-color: #1F2932;
 	color: #FFF;
