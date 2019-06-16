@@ -57,14 +57,42 @@ blu scuro footer: 	#1F2932
 /*----------------*/
 /* # # NAVBAR # # */
 /*----------------*/
+.navbar {
+	background-color: #2F4051;
+	border: 0;
+}
+
 .navbar-brand h1 {
 	margin: 0;
 	font-size: 2rem;
 	padding: 15px;
+	color: #FFF;
 }
 
 .navbar-brand {
     padding: 0;
+}
+
+/* Colore elementi a dx dell'header
+   NB= sovrascrivo direttamente regole bootstrap perchè sono molto specifiche e non val la pena sovrascriverle usando ID o più classi fantocce */
+.navbar-inverse .navbar-nav>li>a {
+    color: #FFF;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #00BB9B;
+}
+
+.navbar__menu-item {
+	text-transform: uppercase;
+}
+
+#navbar__contact-button {
+	margin: 7px 0;
+	color: #FFF;
+	border: 1px solid #00BB9B;
+	border-radius: 5px;
+	background-color: #00BB9B;
 }
 
 
