@@ -172,18 +172,15 @@ footer {
 	color: #FFF;
 }
 
-.footer__icon-div {
-
-}
-
+/*cerchio bianco*/
 .footer__icon-wrapper {
 	display: inline-block;
 	height:  50px;
 	width:   50px;
 	border:  2px solid #FFF;
 	border-radius: 50%;
-	position: relative;
-	margin-right: 10px;
+	margin-right:  10px;
+	position:      relative;
 }
 
 .footer__icon {
@@ -192,6 +189,19 @@ footer {
 	top:      50%;
 	left:     50%;
 	transform: translate(-50%, -50%);
+}
+
+.footer__icon--blue {
+	display: none;
+}
+
+/*inverto i colori al passaggio del mouse*/
+.footer__icon-wrapper:hover {
+	background-color: #FFF;
+}
+
+.footer__icon-wrapper:hover .footer__icon--blue {
+	display: block;
 }
 
 .footer__link {
