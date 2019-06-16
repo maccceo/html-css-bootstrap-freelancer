@@ -94,7 +94,10 @@ blu scuro footer: 	#1F2932
 	margin-bottom: 30px;
 }
 
-    /*background-color: rgba(26,188,156,.9);*/
+.portfolio__image:hover {
+	z-index: 10;
+	background-color: rgba(26,188,156,.9);
+}
 
 
 
