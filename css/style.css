@@ -101,6 +101,10 @@ blu scuro footer: 	#1F2932
 /*---------------*/
 /* # # ABOUT # # */
 /*---------------*/
+.about__text {
+	text-align: left;
+}
+
 .about__download-button {
 	color: #FFF;
 	border: 2px solid #FFF;
@@ -133,6 +137,12 @@ blu scuro footer: 	#1F2932
 	background-color: #00BB9B;
 	padding: 1rem 1.75rem;
 	float: left;
+}
+
+.contatti__send-button:hover {
+	color: #FFF;
+	border: 2px solid #95E2D4;
+	background-color: #00997F;
 }
 
 .form-control {
