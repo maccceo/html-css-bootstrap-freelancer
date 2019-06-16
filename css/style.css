@@ -94,6 +94,8 @@ blu scuro footer: 	#1F2932
 	margin-bottom: 30px;
 }
 
+    /*background-color: rgba(26,188,156,.9);*/
+
 
 
 
@@ -156,6 +158,42 @@ blu scuro footer: 	#1F2932
 /* # # FOOTER # # */
 /*----------------*/
 footer {
-	background-color: #1F2932;
+	background-color: #2F4051;
 	color: #FFF;
+}
+
+.footer__icon-div {
+
+}
+
+.footer__icon-wrapper {
+	display: inline-block;
+	height:  50px;
+	width:   50px;
+	border:  2px solid #FFF;
+	border-radius: 50%;
+	position: relative;
+	margin-right: 10px;
+}
+
+.footer__icon {
+	height:   25px;
+	position: absolute;
+	top:      50%;
+	left:     50%;
+	transform: translate(-50%, -50%);
+}
+
+.footer__link {
+	color: #00BB9B;
+	text-decoration: none;
+}
+
+.footer__link:hover {
+	color: #00997F;
+	text-decoration: underline;
+}
+
+.footer__darkblue {
+	background-color: #1F2932;
 }
